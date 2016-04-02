@@ -11,9 +11,3 @@ checkout:
     - git submodule update --init # use submodules
 
 
-## Customize deployment commands
-deployment:
-  staging:
-    branch: readme-edits
-    heroku:
-    appname: ISEM501
