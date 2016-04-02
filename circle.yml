@@ -16,4 +16,4 @@ deployment:
   staging:
     branch: readme-edits
     heroku:
-      appname:ISEM501
+    appname: ISEM501
