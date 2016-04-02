@@ -13,6 +13,7 @@ checkout:
 
 ## Customize deployment commands
 deployment:
+  staging:
     branch: readme-edits
-      appname: ISEM501-170068
-
+    heroku:
+      appname:ISEM501
