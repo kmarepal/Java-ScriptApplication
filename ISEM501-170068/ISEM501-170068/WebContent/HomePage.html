@@ -1,10 +1,66 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
 <title>Project 1-170068</title>
+
+<link rel="stylesheet" type="text/css" href="styles.css" />
 </head>
 <body>
-This is a test!
-</body>
+
+<section id="page">
+	<header>
+
+		<h1>Your Logo</h1>
+
+		<h3>and a fancy slogan</h3>
+	</header>
+	<nav class="clear">
+		<!-- The nav link semantically marks your main site navigation -->
+
+		<ul>
+
+			<li><a href="#article1">Photoshoot</a></li>
+			<li><a href="#article2">Sweet Tabs</a></li>
+			<li><a href="#article3">Navigation Menu</a></li>
+
+		</ul>
+
+	</nav>
+	<script>
+var x = document.getElementById("demo");
+
+function getLocation() {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(showPosition);
+    } else { 
+        x.innerHTML = "Geolocation is not supported by this browser.";
+    }
+}
+
+function showPosition(position) {
+    x.innerHTML = "Latitude: " + position.coords.latitude + 
+    "<br>Longitude: " + position.coords.longitude;	
+}
+</script>
+<footer> <!-- Marking the footer section -->
+
+			<div class="line"></div>
+
+			<p>Copyright 2010 - YourSite.com</p> <!-- Change the copyright notice -->
+			<a href="#" class="up">Go UP</a>
+			<a href="http://tutorialzine.com/" class="by">Template by Tutorialzine</a>
+
+		</footer>
+
+	</section> <!-- Closing the #page section -->
+
+	<!-- JavaScript Includes -->
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+	<script src="jquery.scrollTo-1.4.2/jquery.scrollTo-min.js"></script>
+	<script src="script.js"></script>
+
+	</body>
 </html>
